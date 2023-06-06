@@ -193,30 +193,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
-    camera.sdm660 \
     libactuator_lc898214xc \
     libactuator_lc898219xi \
     libarcimageprocess \
-    libarcsoft_antishaking \
-    libarcsoft_beautyshot \
-    libarcsoft_condition_detection \
-    libarcsoft_detection_base \
-    libarcsoft_dro \
-    libarcsoft_face_detection \
-    libarcsoft_face_tracking \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_low_light_shot \
-    libarcsoft_motiondetection \
     libarcsoft_night_hawk \
-    libarcsoft_nightzoom \
-    libarcsoft_object_tracking \
-    libarcsoft_picauto \
-    libarcsoft_piczoom \
-    libarcsoft_rer \
-    libarcsoft_selfie_correction \
-    libarcsoft_smart_denoise \
-    libarcsoft_smile_detection \
-    libcam3rdparty \
     libcdsprpc \
     libchromatix_imx486_sm23_bokeh \
     libchromatix_imx486_sm23_common \
@@ -272,7 +252,6 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k4h8_zsl_video \
     libdepthmapwrapper \
     libflash_pmic \
-    libhal_dbg \
     libjpegdhw \
     libjpegdmahw \
     libjpegehw \
@@ -310,7 +289,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_imglib \
     libmmcamera_imglib_faceproc_adspstub \
     libmmcamera_imx486 \
-    libmmcamera_interface \
     libmmcamera_isp_abf48 \
     libmmcamera_isp_aec_bg_stats47 \
     libmmcamera_isp_bf_stats47 \
@@ -373,17 +351,13 @@ PRODUCT_PACKAGES += \
     libmmcamera_tuning \
     libmmcamera_tuning_lookup \
     libmmjpeg \
-    libmmjpeg_interface \
-    libmmlib2d_interface \
     libmmqjpeg_codec \
     libmmqjpegdma \
     libmorpho_video_refiner \
     libmpbase \
-    libqomx_core \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
-    libremosaic_daemon \
     libseemore \
     libdevice_security_vendor \
     cnss-daemon \
