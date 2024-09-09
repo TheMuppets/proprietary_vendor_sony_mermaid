@@ -193,10 +193,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcdsprpc \
     libdevice_security_vendor \
-    libkeymasterdeviceutils \
-    libkeymasterprovision \
-    libkeymasterutils \
-    libqtikeymaster4 \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
     camera.sdm660 \
