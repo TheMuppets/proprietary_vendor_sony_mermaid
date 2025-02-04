@@ -5853,3 +5853,17 @@ cc_prebuilt_binary {
     prefer: true,
     soc_specific: true,
 }
+
+install_symlink {
+    name: "vendor_firmware_wlan_qca_cld_bdwlan_bin",
+    soc_specific: true,
+    installed_location: "firmware/wlan/qca_cld/bdwlan.bin",
+    symlink_target: "/vendor/etc/wifi/bdwlan.bin",
+}
+
+install_symlink {
+    name: "vendor_firmware_wlan_qca_cld_bdwlanb1_bin",
+    soc_specific: true,
+    installed_location: "firmware/wlan/qca_cld/bdwlanb1.bin",
+    symlink_target: "/vendor/etc/wifi/bdwlanb1.bin",
+}

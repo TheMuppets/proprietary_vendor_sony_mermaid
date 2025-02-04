@@ -396,3 +396,7 @@ PRODUCT_PACKAGES += \
     vendor.semc.hardware.secd@1.0-service \
     keyprovd \
     sct_service
+
+PRODUCT_PACKAGES += \
+    vendor_firmware_wlan_qca_cld_bdwlan_bin \
+    vendor_firmware_wlan_qca_cld_bdwlanb1_bin
