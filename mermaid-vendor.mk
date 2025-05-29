@@ -192,7 +192,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libcdsprpc \
-    libdevice_security_vendor \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
     camera.sdm660 \
@@ -386,6 +385,7 @@ PRODUCT_PACKAGES += \
     libqomx_jpegenc_pipe \
     libremosaic_daemon \
     libseemore \
+    libdevice_security_vendor \
     cnss-daemon \
     android.hardware.keymaster@4.0-service-qti \
     vendor.semc.hardware.secd@1.0-service \
