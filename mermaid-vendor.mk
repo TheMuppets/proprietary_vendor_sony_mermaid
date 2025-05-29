@@ -191,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mermaid/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt
 
 PRODUCT_PACKAGES += \
-    libcdsprpc \
     libsuntory \
     vendor.somc.hardware.security.secd@1.0 \
     camera.sdm660 \
@@ -218,6 +217,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_smart_denoise \
     libarcsoft_smile_detection \
     libcam3rdparty \
+    libcdsprpc \
     libchromatix_imx486_sm23_bokeh \
     libchromatix_imx486_sm23_common \
     libchromatix_imx486_sm23_cpp_4k \
